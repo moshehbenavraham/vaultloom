@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /$
+Allow: /sitemap.xml
+Allow: /social-preview.svg
+
+# Auth-walled application surface — keep out of search indexes.
+Disallow: /assets
+Disallow: /assets/
+Disallow: /employees
+Disallow: /settings
+Disallow: /ai-chat
+Disallow: /reset-password
+
+Sitemap: https://assetwise.app/sitemap.xml
